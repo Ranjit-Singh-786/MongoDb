@@ -17,7 +17,7 @@ def check_mongo_connection(uri):
         print("An error occurred", e)
 
 # Replace <username>, <password>, and <cluster-address> with your MongoDB Atlas details
-mongo_uri = "mongodb+srv://ranjitsingh:12453696@demo.86fki1p.mongodb.net/?retryWrites=true&w=majority&appName=Demo"
+mongo_uri = "mongodb+srv://ranjitsingh:<password>@demo.86fki1p.mongodb.net/?retryWrites=true&w=majority&appName=Demo"
 # mongo_uri = "mongodb+srv://ranjitsingh:bEcGAFY3lngxbMY2@demo.86fki1p.mongodb.net/?retryWrites=true&w=majority&appName=Demo"
 
 check_mongo_connection(mongo_uri)
