@@ -2,7 +2,7 @@ from pymongo import MongoClient
 from pymongo.errors import PyMongoError
 
 # MongoDB connection string
-connection_string = "mongodb+srv://ranjitsingh:12453696@demo.86fki1p.mongodb.net/?retryWrites=true&w=majority&appName=Demo"
+connection_string = "mongodb+srv://ranjitsingh:<password>@demo.86fki1p.mongodb.net/?retryWrites=true&w=majority&appName=Demo"
 
 try:
     # Connect to MongoDB
